@@ -102,7 +102,8 @@
 		"function-paren-newline": 0
 	},
 	"globals": {
-		"global": false
+		"global": false,
+		"it": false
 	},
 	"env": {
 		"es6": true,
