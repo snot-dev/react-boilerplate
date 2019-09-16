@@ -53,7 +53,6 @@
 			2,
 			{ "allowSamePrecedence": true }
 		],
-		"no-unused-expressions": [2, { "allowTernary": true }],
 		"no-underscore-dangle": [2, { "allowAfterThis": true, "allow": ["_id"] }],
 		"no-empty-function": 2,
 		"no-restricted-syntax": [
@@ -99,7 +98,9 @@
 		"no-multiple-empty-lines": [ 1, { "max": 2, "maxEOF": 1 } ],
 		"operator-linebreak": [ 1, "before" ],
 		"object-curly-newline": 0,
-		"function-paren-newline": 0
+		"function-paren-newline": 0,
+
+		"react/prop-types": [2, { "ignore": ["dispatch", "children", "match"] }]
 	},
 	"globals": {
 		"global": false,
